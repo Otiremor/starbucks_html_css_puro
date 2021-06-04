@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    padding: 20px 0;
+    height: 200px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    /*padding-top: 30px;
+    width: 50%;
+    text-align: right;*/
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 250px;
+}
+
+.menu a{
+    color: #333333;
+    /*font-weight: bold;*/
+    font-weight: 400;
+    margin: 20px;
+    text-decoration: none;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    /*bottom: -450px;*/
+    right: -600px;
+    width: 1150px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.social-media{
+    position: absolute;
+    right: 610px;
+    top: 150px;
+    margin: 0 25px;
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 30px 0;
+}
+
+.texto-sobre h2{
+    color: #333333;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+.texto-sobre h2 span{
+    color: #017143;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.texto-sobre p{
+    margin-bottom: 20px;
+    color: #333333;
+    /*font-size: 14px;
+    font-weight: bold;*/
+    max-width: 500px;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.thumb{
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+.thumb img{
+    width: 50px;
+    margin: 20px;
+}
+
+.thumb a{
+    text-decoration: none;
+}
